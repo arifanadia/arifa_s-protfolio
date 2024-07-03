@@ -1,12 +1,15 @@
+import About from "./About";
+import Hero from "./Hero";
+import Stats from "./Stats";
 
 
-const Home = () => {
-    return (
-        <div>
-            <h1>Hi I&apos;m Arifa Nadia</h1>
-            
-        </div>
-    );
-};
+const Home = () => (
+    <div className=" ">
+        <Hero />
+        <Stats />
+        <About/>
+
+    </div>
+);
 
 export default Home;
