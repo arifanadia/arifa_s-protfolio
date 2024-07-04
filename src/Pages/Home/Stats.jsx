@@ -4,8 +4,8 @@ const Stats = () => {
     return (
         <section className='bg-main_color bg-opacity-50 '>
             <div className=" md:flex justify-between gap-4 max-w-6xl mx-auto p-8 space-y-4 lg:space-y-0 ">
-                <div className="stat  bg-black rounded-md  flex items-center space-x-2 ">
-                    <div className="stat-value text-4xl text-white">
+                <div className="stat bg-black rounded-md  flex items-center space-x-2 ">
+                    <div className="stat-value text-3xl text-white">
                         <CountUp
                             start={1050}
                             end={1080}
