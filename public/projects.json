@@ -1,45 +1,91 @@
 [
     {
+        "id": 1,
         "name": "Dreamy Destiny Hotel",
         "description": "A hotel booking website offering a luxurious and memorable stay experience with various features including room booking, user reviews, and special offers.",
         "features": [
-          "Interactive map displaying hotel location",
-          "Email/password and Google authentication",
-          "Room booking functionality with availability check"
+            "Interactive map displaying hotel location",
+            "Email/password and Google authentication",
+            "Room booking functionality with availability check"
         ],
         "technologies": [
-          "React.js",
-          "Node.js",
-          "Express.js",
-          "MongoDB",
-          "Firebase"
+            "https://i.ibb.co/Z2xmbJg/react.png",
+            "https://i.ibb.co/nz1rrVY/jd-node.png",
+            "https://i.ibb.co/DMNSszm/express-js.png",
+            "https://i.ibb.co/8gh4ydk/mongo.png",
+            "https://i.ibb.co/R4tCbtK/firbase.png"
         ],
-        "live_link": "https://dreamydestiny-hotel.web.app",
-        "github_client_link": "https://github.com/arifanadia/dreamydestiny-hotel-client",
-        "github_server_link": "https://github.com/arifanadia/dreamydestiny-hotel-server",
-        "image_link": "https://example.com/images/dreamy-destiny-hotel.png"
-      },
-      {
-        "name": "Art and Craft Store",
-        "description": "An e-commerce platform for handmade crafts and artisanal products. The site includes features such as product listing, shopping cart, and user reviews.",
+        "live_link": "https://dreamydestiny-hotel.web.app/",
+        "github_client_link": "https://github.com/arifanadia/dreamydestiny-hotel-client.git",
+        "github_server_link": "https://github.com/arifanadia/dreamydestiny-hotel-server.git ",
+        "image_link": "https://i.ibb.co/qsTxgnN/dreamy-destiny.png",
+        "details_images": [
+            "https://i.ibb.co/7JW5sV7/dreamy-destiny-details1.png",
+            "https://i.ibb.co/7JW5sV7/dreamy-destiny-details2.png",
+            "https://i.ibb.co/7JW5sV7/dreamy-destiny-details3.png",
+            "https://i.ibb.co/7JW5sV7/dreamy-destiny-details4.png",
+            "https://i.ibb.co/7JW5sV7/dreamy-destiny-details5.png"
+        ],
+        "start_date": "2023-01-15",
+        "designer_name": "Arifa Nadia"
+    },
+    {
+        "id": 2,
+        "name": "Explore Savvy",
+        "description": "A travel and adventure booking platform offering various packages and user reviews to help plan the perfect trip.",
         "features": [
-          "Product listing with search and filter options",
-          "User authentication and secure checkout",
-          "Product reviews and ratings"
+            "Package booking functionality",
+            "User reviews and ratings",
+            "Interactive travel guides"
         ],
         "technologies": [
-          "React.js",
-          "Redux",
-          "Node.js",
-          "Express.js",
-          "MongoDB"
+            "https://i.ibb.co/Z2xmbJg/react.png",
+            "https://i.ibb.co/nz1rrVY/jd-node.png",
+            "https://i.ibb.co/DMNSszm/express-js.png",
+            "https://i.ibb.co/8gh4ydk/mongo.png",
+            "https://i.ibb.co/R4tCbtK/firbase.png"
         ],
-        "live_link": "https://crafty-bazaar.example.com",
-        "github_client_link": "https://github.com/arifanadia/crafty-bazaar-client",
-        "github_server_link": "https://github.com/arifanadia/crafty-bazaar-server",
-        "image_link": "https://example.com/images/crafty-bazaar.png"
-      }
-      
-      
-      
+        "live_link": "https://exploresavvy-tourist-guide.web.app/",
+        "github_client_link": "https://github.com/arifanadia/exploresavvy-tourist-guide-client.git",
+        "github_server_link": "https://github.com/arifanadia/exploresavvy-tourist-guide-server.git ",
+        "image_link": "https://i.ibb.co/3YwtLd7/exploresavvy.png",
+        "details_images": [
+            "https://i.ibb.co/d6hHZpV/admin.png",
+            "https://i.ibb.co/bFH0MrP/screencapture-exploresavvy-tourist-guide-web-app-packages-details-665f0edc5368cd89690b462b-2024-07-0.png",
+            "https://i.ibb.co/tczc1Kd/exploresavvy-login.png",
+            "https://i.ibb.co/bgw5PMC/tour-guide-panel.png"
+        ],
+        "start_date": "2023-05-10",
+        "designer_name": "Arifa Nadia"
+    },
+    {
+        "id": 3,
+        "name": "Art & Craft Store",
+        "description": "An e-commerce platform for buying and selling handmade arts and crafts with features for product listing, user reviews, and secure payment.",
+        "features": [
+            "Product listing and search",
+            "User reviews and ratings",
+            "Secure payment gateway"
+        ],
+        "technologies": [
+            "https://i.ibb.co/Z2xmbJg/react.png",
+            "https://i.ibb.co/nz1rrVY/jd-node.png",
+            "https://i.ibb.co/DMNSszm/express-js.png",
+            "https://i.ibb.co/8gh4ydk/mongo.png",
+            "https://i.ibb.co/R4tCbtK/firbase.png"
+        ],
+        "live_link": "https://art-and-craft-store-2ac70.web.app/",
+        "github_client_link": "https://github.com/arifanadia/art-and-craft-store-client.git",
+        "github_server_link": "https://github.com/arifanadia/art-and-craft-store-server.git ",
+        "image_link": "https://i.ibb.co/TPyh2GG/art-and-craft.png",
+        "details_images": [
+            "https://i.ibb.co/example/artcraftstore-details1.png",
+            "https://i.ibb.co/example/artcraftstore-details2.png",
+            "https://i.ibb.co/example/artcraftstore-details3.png",
+            "https://i.ibb.co/example/artcraftstore-details4.png",
+            "https://i.ibb.co/example/artcraftstore-details5.png"
+        ],
+        "start_date": "2023-07-01",
+        "designer_name": "Arifa Nadia"
+    }
 ]

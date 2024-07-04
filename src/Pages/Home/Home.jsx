@@ -8,7 +8,7 @@ import Stats from "./Stats";
 
 const Home = () => {
     return (
-        <div className=" ">
+        <div id="/" className=" ">
             <Hero />
             <Stats />
             <About />

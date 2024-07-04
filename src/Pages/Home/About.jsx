@@ -2,7 +2,7 @@
 
 const About = () => {
     return (
-        <section className="lg:flex justify-between items-center container mx-auto text-white p-8">
+        <section id="about" className="lg:flex justify-between items-center container mx-auto text-white p-8">
             <div>
                 <h4 className="text-2xl">About Me</h4>
 

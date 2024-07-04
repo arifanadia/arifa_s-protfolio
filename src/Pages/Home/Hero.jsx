@@ -3,6 +3,9 @@ import banner from "../../assets/Home/banerimg.png"
 import {  FaDiscord, FaDownload } from "react-icons/fa";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import downloadResume from "../../assets/Resume/Arifa Atiq Nadia.pdf"
+const linkedin_link="https://www.linkedin.com/in/arifa-nadiaa/"
+const github_link="https://github.com/arifanadia"
+const discord_link="https://discord.com/channels/arifanadia"
 
 const Hero = () => {
     return (
@@ -16,9 +19,9 @@ const Hero = () => {
                     <p >welcome to my playground! I&apos;m a web developer who is passionate about MERN stack development. I specialize in creating visually appealing and user-friendly web applications using MongoDB, Express.js, React.js, and Node.js. My goal is to build efficient, scalable, and maintainable applications that provide an excellent user experience.</p>
                     <div className="flex gap-3 items-center">
                         <button className=" mt-12  text-transparent bg-gradient-to-r from-[#7545d8] to-white bg-clip-text border border-secondary_color btn text-xl font-bold rounded-full"><a className="flex items-center gap-2 " href={downloadResume}>Download Resume <FaDownload className="text-white" /></a> </button>
-                        <button className="flex mt-12 items-center gap-2 border border-secondary_color  btn-outline btn text-xl font-bold rounded-full"><FaLinkedin className="text-[#7545d8]"/></button>
-                        <button className="flex mt-12 items-center gap-2 border border-secondary_color btn  btn-outline  text-xl font-bold rounded-full"><FaGithub className="text-[#7545d8]"/></button>
-                        <button className="flex mt-12 items-center gap-2 border border-secondary_color btn  btn-outline  text-xl font-bold rounded-full"><FaDiscord className="text-[#7545d8]"/></button>
+                        <a href={linkedin_link}><button className="flex mt-12 items-center gap-2 border border-secondary_color  btn-outline btn text-xl font-bold rounded-full"><FaLinkedin className="text-[#7545d8]"/></button></a>
+                        <a href={github_link}><button className="flex mt-12 items-center gap-2 border border-secondary_color btn  btn-outline  text-xl font-bold rounded-full"><FaGithub className="text-[#7545d8]"/></button></a>
+                        <a href={discord_link}><button className="flex mt-12 items-center gap-2 border border-secondary_color btn  btn-outline  text-xl font-bold rounded-full"><FaDiscord className="text-[#7545d8]"/></button></a>
                       
                     </div>
                 </div>

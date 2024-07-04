@@ -3,7 +3,7 @@ import { MdOutlineEmail, MdOutlineLocationOn } from "react-icons/md";
 
 const Contact = () => {
     return (
-        <section className="container mx-auto flex justify-around items-center">
+        <section id="contact" className="container mx-auto lg:flex justify-around items-center my-12">
             <div className="bg-main_color bg-opacity-30 p-12">
                 <h1 className="text-4xl font-bold text-transparent bg-gradient-to-r from-[#7545d8] to-white bg-clip-text">
                     Let&apos;s work together!</h1>

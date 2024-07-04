@@ -1,5 +1,4 @@
 
-import { NavLink } from "react-router-dom";
 import logo from "../../assets/logo/Logo.png"
 
 const Navbar = () => {
@@ -9,11 +8,18 @@ const Navbar = () => {
     // };
 
     const navOptions =
+        // <>
+        //     <NavLink to={'/'}><li><a>Home</a></li></NavLink>
+        //     <NavLink to={'/about-me'}><li><a>About Me</a></li></NavLink>
+        //     <NavLink to={'/projects'}><li><a>Projects</a></li></NavLink>
+        //     <NavLink to={'/'}><li><a>Blog</a></li></NavLink>
+        // </>
         <>
-            <NavLink to={'/'}><li><a>Home</a></li></NavLink>
-            <NavLink to={'/about-me'}><li><a>About Me</a></li></NavLink>
-            <NavLink to={'/projects'}><li><a>Projects</a></li></NavLink>
-            <NavLink to={'/'}><li><a>Blog</a></li></NavLink>
+            <li><a href="#/">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
         </>
     return (
         <section className=" bg-gradient-to-r from-[#000000F2] to-[#2e165aCF]  " >
